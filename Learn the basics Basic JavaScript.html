@@ -14,20 +14,10 @@
           background: grey;
       }
     </style>
-    <script type="application/javascript">
-      (function() {
-          function init(event) {
-              maptilersdk.config.apiKey = 'secret';
-              new maptilersdk.Map({
-                  container: 'map',
-                  style: maptilersdk.MapStyle.STREETS,
-                  center: [18.3453003, 49.6770897],
-                  zoom: 17,
-              });
-          }
-
-          document.addEventListener('DOMContentLoaded', init);
-      })()
+    <script src="src/npmmodule.js" type="module"></script>
+    <script type="module">
+      import { init } from './src/npmmodule.js'
+      document.addEventListener('DOMContentLoaded', init);
     </script>
   </head>
   <body>

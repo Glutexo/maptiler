@@ -1,13 +1,5 @@
 import * as maptilersdk from '@maptiler/sdk';
+import { init } from './npmmodule.js';
 
-function init(event) {
-    maptilersdk.config.apiKey = 'secret';
-    new maptilersdk.Map({
-        container: 'map',
-        style: maptilersdk.MapStyle.STREETS,
-        center: [18.3453003, 49.6770897],
-        zoom: 17,
-    });
-}
-
+window.maptilersdk = maptilersdk
 document.addEventListener('DOMContentLoaded', init);
