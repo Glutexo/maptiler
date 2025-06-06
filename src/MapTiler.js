@@ -1,5 +1,5 @@
-export default function () {
-    maptilersdk.config.apiKey = 'secret';
+export default function (apiKey) {
+    maptilersdk.config.apiKey = apiKey;
     new maptilersdk.Map({
         container: 'map',
         style: maptilersdk.MapStyle.STREETS,
