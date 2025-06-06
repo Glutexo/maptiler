@@ -1,4 +1,5 @@
 module.exports = {
+    entry: './src/Learn the basics NPM Module.js',
     module: {
         rules: [
             {
