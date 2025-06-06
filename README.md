@@ -14,7 +14,7 @@ Simply open [Learn the basics Basic JavaScript.html](Learn the basics Basic Java
 
 ### NPM Module ###
 
-Have [NPM](https://npmjs.com/] and [Webpack](https://webpack.js.org/) installed, install the packages by running `npm install`. Then, build the sources by running `webpack bundle --mode development`.
+Have [NPM](https://npmjs.com/) and [Webpack](https://webpack.js.org/) installed, install the packages by running `npm install`. Then, build the sources by running `webpack bundle --mode development`.
 
 Open [Learn the basics Basic JavaScript.html](Learn the basics Basic JavaScript.html) in your browser.
 
