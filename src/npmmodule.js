@@ -1,4 +1,4 @@
-export function init() {
+export default function () {
     maptilersdk.config.apiKey = 'secret';
     new maptilersdk.Map({
         container: 'map',
