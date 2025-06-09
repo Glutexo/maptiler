@@ -22,3 +22,7 @@ jobs:
       run: |
         npm install
         npx webpack --mode production
+
+    - name: Upload static files as artifact
+      id: deployment
+      uses: actions/upload-pages-artifact@v3
